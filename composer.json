@@ -1,0 +1,28 @@
+{
+    "name": "usuario/api-usuario",
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/Domain/",
+            "Infraestructure\\": "src/Infraestructure/",
+            "Application\\": "src/Application/"
+        }
+    
+    },
+    "authors": [
+        {
+            "name": "Verónica Domínguez",
+            "email": "veronicanicoll97@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.20",
+        "doctrine/dbal": "^3.9",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4",
+        "symfony/dotenv": "^5.4",
+        "ramsey/uuid": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}

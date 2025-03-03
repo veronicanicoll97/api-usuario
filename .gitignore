@@ -1,0 +1,29 @@
+# Created by https://www.toptal.com/developers/gitignore/api/phpunit,cakephp2
+# Edit at https://www.toptal.com/developers/gitignore?templates=phpunit,cakephp2
+
+### CakePHP2 ###
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+### PHPUnit ###
+# Covers PHPUnit
+# Reference: https://phpunit.de/
+
+# Generated files
+.phpunit.result.cache
+.phpunit.cache
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# End of https://www.toptal.com/developers/gitignore/api/phpunit,cakephp2
+/vendor/
+.php-cs-fixer.cache
