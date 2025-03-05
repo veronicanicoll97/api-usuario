@@ -13,7 +13,7 @@ class SendWelcomeEmailListener
         $user = $event->user();
         $email = $user->email();
 
-        // Simular el envío de un email (puedes integrar PHPMailer, SwiftMailer, etc.)
+        // Simular el envío de un email
         echo "📧 Enviando email de bienvenida a: {$email}\n";
     }
 }
